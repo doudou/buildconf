@@ -6,3 +6,8 @@
 #   - rtt
 #     branch: test
 #  
+overrides:
+    - orogen:
+      branch: remove_inclusion_of_Types_hpp_in_corba_transport
+    - typelib:
+      branch: minor_changes
