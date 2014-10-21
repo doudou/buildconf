@@ -30,6 +30,7 @@ exclude_packages:
    - drivers/orogen/imu_stim300
    - image_processing/orogen/video_streamer
    - planning/orogen/corridor_navigation
+   - slam/ceres_solver
 
 # The layout section specifies what to build, and where to build it (as a
 # subdirectory of the root installation directory). In the example below, all
