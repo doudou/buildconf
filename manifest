@@ -15,11 +15,18 @@ package_sets:
 # imported by other rock sets.
 layout:
    - rock.core
-   # Uncomment to enable the Rock/ROS bridge
-   # You will also have to uncomment some lines in the package_sets above
-   # - rock.ros
-   # Uncomment to checkout and build all tutorials  
-   # - rock.tutorials    
+   - rock
+   - rock.tutorials
+
+exclude_packages:
+   - drivers/tofcamera_mesasr
+   - multiagent/fipa_acl
+   - drivers/aravis
+   - simulation/orogen/imumodel
+   - drivers/orogen/imu_stim300
+   - image_processing/orogen/video_streamer
+   - planning/orogen/corridor_navigation
+   - slam/ceres_solver
 
 # The layout section specifies what to build, and where to build it (as a
 # subdirectory of the root installation directory). In the example below, all
