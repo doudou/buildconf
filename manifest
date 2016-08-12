@@ -5,6 +5,7 @@
 
 package_sets:
    - github: rock-core/package_set
+     branch: remove_deprecated_autoproj_apis
    - github: rock-core/rock-package_set
    - github: rock-tutorials/tutorials-package_set
    - github: rock-simulation/simulation-package_set
