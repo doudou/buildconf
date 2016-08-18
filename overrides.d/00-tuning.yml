@@ -3,3 +3,5 @@
     branch: jenkins
 - base/cmake:
     branch: boost_test_reports
+- typelib:
+    branch: fix_test_suite
