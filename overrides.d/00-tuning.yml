@@ -1,2 +1,5 @@
+- pkg_set:github:/rock-core/package_set.git:
+    github: doudou/rock.core-package_set
+    branch: jenkins
 - base/cmake:
     branch: boost_test_reports
