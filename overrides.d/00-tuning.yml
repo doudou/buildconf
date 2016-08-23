@@ -5,3 +5,5 @@
     branch: boost_test_reports
 - typelib:
     branch: fix_gccxml_real_autodetection
+- tools/orocos.rb:
+    branch: remove_hoe
