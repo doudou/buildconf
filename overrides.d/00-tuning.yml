@@ -4,6 +4,6 @@
 - base/cmake:
     branch: boost_test_reports
 - typelib:
-    branch: fix_gccxml_real_autodetection
+    branch: jenkins
 - tools/orocos.rb:
     branch: remove_hoe
