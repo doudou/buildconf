@@ -9,3 +9,5 @@
     branch: remove_hoe
 - tools/rest_api:
     branch: define_test_dependencies
+- base/scripts:
+    branch: fix_tests
