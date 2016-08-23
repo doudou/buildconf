@@ -7,3 +7,5 @@
     branch: jenkins
 - tools/orocos.rb:
     branch: remove_hoe
+- tools/rest_api:
+    branch: define_test_dependencies
