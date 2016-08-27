@@ -2,7 +2,7 @@
     github: doudou/rock.core-package_set
     branch: jenkins
 - base/cmake:
-    branch: boost_test_reports
+    branch: jenkins
 - typelib:
     branch: jenkins
 - tools/orocos.rb:
