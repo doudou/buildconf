@@ -12,5 +12,5 @@
 # See config.yml to set the prefix:/opt/autoproj/2.0 globally for all packages.
 
 setup_package('typelib') do |pkg|
-    pkg.env_add_path 'LD_LIBRARY_PATH', File.join(pkg.prefix, 'typelib')
+    pkg.env_add_path 'LD_LIBRARY_PATH', File.join(pkg.prefix, 'lib', 'typelib')
 end
