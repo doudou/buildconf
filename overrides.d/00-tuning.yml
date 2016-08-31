@@ -1,7 +1,7 @@
 - pkg_set:github:/rock-core/package_set.git:
     github: doudou/rock.core-package_set
     branch: jenkins
-- pkg_set:github:/rock-core/package_set.git:
+- pkg_set:github:/rock-core/rock-package_set.git:
     github: doudou/rock-package_set
     branch: jenkins
 - base/cmake:
